@@ -8,7 +8,7 @@ void main(){
   ob.addition();
   ob.subtraction();
 }
-void add(){    ///user defined fuction
+void add(){    ///user defined function
   int a=100,b=230;
   print('sum = ${a+b}');
 }
