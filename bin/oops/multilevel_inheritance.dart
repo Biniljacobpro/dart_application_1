@@ -18,16 +18,20 @@ void main(){
 class House {
   String hname = "Thekkadathu";
 }
-class Gfather extends House{
-  String gname="John";
+
+class Gfather extends House {
+  String gname = "John";
 }
-class Father extends Gfather{
-  String fname="Jacob";
+
+class Father extends Gfather {
+  String fname = "Jacob";
 }
-class Child extends Father{
-  String name="Binil";
+
+class Child extends Father {
+  String name = "Binil";
 }
-void main(){
-  Child obj=Child();
+
+void main() {
+  Child obj = Child();
   print("My name is ${obj.name} ${obj.fname} ${obj.gname} ${obj.hname}");
 }
