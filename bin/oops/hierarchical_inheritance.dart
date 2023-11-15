@@ -24,5 +24,5 @@ void main() {
 
   Benz b = Benz();
   print("My car is ${b.model}");
-  m.details("Black", 16.43, 7, "Petrol");
+  b.details("Black", 16.43, 7, "Petrol");
 }
