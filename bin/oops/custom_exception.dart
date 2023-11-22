@@ -1,6 +1,6 @@
 class Myexception implements Exception{
   String? msg;
-  Myexception([this.msg]);
+  Myexception([this.msg]);  /// []means optional  this. shows that msg is the variable from this class.
     @override
     String toString(){
 
@@ -9,10 +9,10 @@ class Myexception implements Exception{
 }
 void checkage(int age){
   if(age<18){
-    throw Myexception("Invalid age");
+    throw Myexception("Invalid *Age must be greater than 18");
   }
   else{
-    print("Valid");
+    print("Valid Age");
   }
 }
 
